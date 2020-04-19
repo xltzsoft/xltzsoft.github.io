@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.stzo.cn/"/>
-  <updated>2020-04-01T04:49:01.443Z</updated>
+  <updated>2020-04-19T01:27:38.792Z</updated>
   <id>https://blog.stzo.cn/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>搭建无限容量goindex</title>
+    <link href="https://blog.stzo.cn/2020/04/19/%E6%90%AD%E5%BB%BA%E6%97%A0%E9%99%90%E5%AE%B9%E9%87%8Fgoindex/"/>
+    <id>https://blog.stzo.cn/2020/04/19/%E6%90%AD%E5%BB%BA%E6%97%A0%E9%99%90%E5%AE%B9%E9%87%8Fgoindex/</id>
+    <published>2020-04-19T01:27:31.120Z</published>
+    <updated>2020-04-19T01:27:38.792Z</updated>
+    
+    <content type="html"><![CDATA[<p>首先，我们来申请一个无限容量的Google Drive<br>打开这个网站：<a href="https://gd.zxd.workers.dev/" target="_blank" rel="noopener">https://gd.zxd.workers.dev/</a></p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="https://shop.io.mi-img.com/app/shop/img?id=shop_4dead0afce20cd7e576af6c8f0e0e5c0.png" alt="" title="">                </div>                <div class="image-caption"></div>            </figure><p>填写信息，然后你就拥有无限容量Google Drive团队盘了。<br>登录你的Google账号，在云端硬盘里找到共享云端硬盘，打开，然后找到地址里的folders后面的一串字符，复制下来。<br>打开<a href="https://install.gd.workers.dev/" target="_blank" rel="noopener">https://install.gd.workers.dev/</a></p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="https://shop.io.mi-img.com/app/shop/img?id=shop_2e3decb469fd329c9828155bf757e891.png" alt="" title="">                </div>                <div class="image-caption"></div>            </figure><p>获取认证码，把你在上面获得的一串字符填到目录id那一栏，生成代码。<br>去<a href="https://dash.cloudflare.com/" target="_blank" rel="noopener">cloudflare</a>新建一个cf worker，把代码粘贴到里面，部署</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="https://shop.io.mi-img.com/app/shop/img?id=shop_93a89ce87e807687d351baaa56039329.png" alt="" title="">                </div>                <div class="image-caption"></div>            </figure><p>然后打开xxx(你的worker名字).workers.dev就可以看到你的Google Drive团队盘了。<br>展示一下成品：</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="https://shop.io.mi-img.com/app/shop/img?id=shop_c78e2e601a9428dc7252f5f869cde423.png" alt="" title="">                </div>                <div class="image-caption"></div>            </figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;首先，我们来申请一个无限容量的Google Drive&lt;br&gt;打开这个网站：&lt;a href=&quot;https://gd.zxd.workers.dev/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://gd.zxd.workers.dev/&lt;/a
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>cmlink英国电话卡</title>
