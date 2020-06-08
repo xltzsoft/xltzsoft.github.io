@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.stzo.cn/"/>
-  <updated>2020-04-21T07:51:08.535Z</updated>
+  <updated>2020-06-08T03:14:53.943Z</updated>
   <id>https://blog.stzo.cn/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>将hexo博客搬到GitHub上并使用GitHub Actoins实现自动构建</title>
+    <link href="https://blog.stzo.cn/2020/06/08/%E5%B0%86hexo%E5%8D%9A%E5%AE%A2%E6%90%AC%E5%88%B0GitHub%E4%B8%8A%E5%B9%B6%E4%BD%BF%E7%94%A8GitHub%20Actoins%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%8A%A8%E6%9E%84%E5%BB%BA/"/>
+    <id>https://blog.stzo.cn/2020/06/08/%E5%B0%86hexo%E5%8D%9A%E5%AE%A2%E6%90%AC%E5%88%B0GitHub%E4%B8%8A%E5%B9%B6%E4%BD%BF%E7%94%A8GitHub%20Actoins%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%8A%A8%E6%9E%84%E5%BB%BA/</id>
+    <published>2020-06-08T03:14:53.943Z</published>
+    <updated>2020-06-08T03:14:53.943Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="搭建hexo环境并上传github"><a href="#搭建hexo环境并上传github" class="headerlink" title="搭建hexo环境并上传github"></a>搭建hexo环境并上传github</h3><p>首先，你需要在本地搭建好一个hexo环境，配置好,然后上传到github，最好用git push（文件太多）<br>看看我的：<a href="https://github.com/xltzsoft/aa" target="_blank" rel="noopener">https://github.com/xltzsoft/aa</a></p><h3 id="编写GitHub-Action"><a href="#编写GitHub-Action" class="headerlink" title="编写GitHub Action"></a>编写GitHub Action</h3><p><a href="https://github.com/xltzsoft/aa/blob/master/.github/workflows/main.yml" target="_blank" rel="noopener">https://github.com/xltzsoft/aa/blob/master/.github/workflows/main.yml</a><br>参照我的配置文件，改一下最后的user_name和user_email</p><h3 id="生成ssh-key并添加秘密环境变量"><a href="#生成ssh-key并添加秘密环境变量" class="headerlink" title="生成ssh key并添加秘密环境变量"></a>生成ssh key并添加秘密环境变量</h3><p>用ssh工具生成一个ssh key，将私钥上传到这里：<a href="https://github.com/settings/keys" target="_blank" rel="noopener">https://github.com/settings/keys</a><br>再来到这里：</p><figure class="image-bubble">                <div class="img-lightbox">                    <div class="overlay"></div>                    <img src="https://shop.io.mi-img.com/app/shop/img?id=shop_4c055d9f406d28539168bfec5703686f.png" alt="" title="">                </div>                <div class="image-caption"></div>            </figure><p>添加一个秘密环境变量DEPLOY_KEY，内容是你的私钥</p><h3 id="愉快使用"><a href="#愉快使用" class="headerlink" title="愉快使用"></a>愉快使用</h3><p>现在，可以去source/_posts里面写一篇文章，触发GitHub Action的自动构建，随时随地优雅地写博客了！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;搭建hexo环境并上传github&quot;&gt;&lt;a href=&quot;#搭建hexo环境并上传github&quot; class=&quot;headerlink&quot; title=&quot;搭建hexo环境并上传github&quot;&gt;&lt;/a&gt;搭建hexo环境并上传github&lt;/h3&gt;&lt;p&gt;首先，你需要在本地搭
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>建了一个tg api代理</title>
